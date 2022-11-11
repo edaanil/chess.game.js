@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    margin: 0;
+
+}
+.heading{
+    color:rgba(241, 145, 26, 0.985);
+}
+.button-start
+{
+    background-color: aquamarine;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 1rem;
+    
+    
+}
+.button-stop{
+    background-color: coral;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.button-restart{
+    background-color: darkorchid;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    
+    
+}
+
+.time,p{
+    font-size: 50px;
+
+}
+

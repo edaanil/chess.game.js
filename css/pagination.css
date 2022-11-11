@@ -1,0 +1,27 @@
+#root
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+#root >div>img{
+    max-width: 150px;
+    height: auto;
+}
+
+#root >div>div{
+    text-align: center;
+}
+
+#root >div{
+    padding: 0.5rem;
+    background-color: rgb(244,244,244);
+    border-radius: 0.5rem;
+    box-shadow: 2px 1px 5px 1px rgba(0,0,0,0.3);
+}
+
+#root >div>p{
+    overflow: hidden;
+    max-height: 80px;
+}

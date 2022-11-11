@@ -1,0 +1,58 @@
+
+  
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+    
+    
+  }
+  
+  .controls {
+    
+    text-align: center;
+  }
+  
+  
+  
+  .game {
+    width:600px;
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 auto;
+  }
+  
+  .hole {
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .hole:after {
+    display: block;  
+    background: url(../media/hole-animal-in-the-ground-burrow-ground-works-vector-39752404.jpg) bottom center no-repeat;
+    background-size:contain;
+    content:'';
+    width: 100%;
+    height:70px;
+    position: absolute;
+    z-index: 2;
+    bottom:-30px;
+    background-size: 70%;
+  }
+  
+  .mole {
+    background: url(../media/51918212-illustration-of-cute-rabbit-cartoon.webp)bottom center no-repeat ;
+   
+    
+    background-size: 70%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition:all 0.4s;
+  }
+  
+  .hole.up .mole {
+    top:0;
+  }
